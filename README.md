@@ -17,7 +17,7 @@
 
 **An ML-powered system that predicts student job placement status and estimates salary — deployed as a decoupled REST API architecture.**
 
-[Live Demo](#-how-to-run) · [API Docs](#-api-endpoints) · [Model Performance](#-model-performance)
+
 
 </div>
 
