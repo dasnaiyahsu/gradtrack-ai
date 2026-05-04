@@ -1,6 +1,13 @@
 # 🎓 GradTrack AI — Student Placement & Salary Prediction System
 
 <div align="center">
+  
+  <img width="1904" height="1055" alt="suda jadi" src="https://github.com/user-attachments/assets/07668d7e-03da-41f0-bbc5-2b9761faf01e" />
+  <img width="1906" height="929" alt="coba prediksi" src="https://github.com/user-attachments/assets/305b4c2f-734d-4cf8-a0de-873d503b0d5c" />
+
+
+<img width="1907" height="1058" alt="ai client" src="https://github.com/user-attachments/assets/33be790b-2712-4b76-86b5-825443ac6588" />
+
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
@@ -16,19 +23,19 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 
 GradTrack AI is a machine learning system built as part of the **Model Deployment** course (UTS Mid Term) at **Binus University**. It addresses a real problem: students often have no data-driven insight into their employability prospects.
 
 The system solves **two tasks**:
-- 🔮 **Classification** — Predict whether a student will be **Placed** or **Not Placed**
-- 💰 **Regression** — Estimate the student's expected **salary in LPA** (Lakh Per Annum)
+-  **Classification** — Predict whether a student will be **Placed** or **Not Placed**
+-  **Regression** — Estimate the student's expected **salary in LPA** (Lakh Per Annum)
 
 Built on a **decoupled architecture** — FastAPI handles all ML logic as a REST API, while Streamlit acts as an independent frontend client.
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────────────┐         HTTP POST (JSON)        ┌──────────────────────────┐
@@ -48,20 +55,20 @@ Built on a **decoupled architecture** — FastAPI handles all ML logic as a REST
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---------|-------------|
-| 🔮 Placement Prediction | Classifies student as **Placed** or **Not Placed** with probability score |
-| 💰 Salary Estimation | Predicts estimated salary with benchmark comparison chart |
-| 🔄 Combined Prediction | Single API call returns both placement + salary simultaneously |
-| 📊 Interactive Dashboard | Gauge charts, donut charts, and salary benchmark visualization |
-| 📝 Swagger UI | Auto-generated API documentation at `/docs` |
-| 🧪 MLflow Tracking | All experiments logged with parameters, metrics, and artifacts |
+| Placement Prediction | Classifies student as **Placed** or **Not Placed** with probability score |
+| Salary Estimation | Predicts estimated salary with benchmark comparison chart |
+| Combined Prediction | Single API call returns both placement + salary simultaneously |
+| Interactive Dashboard | Gauge charts, donut charts, and salary benchmark visualization |
+| Swagger UI | Auto-generated API documentation at `/docs` |
+| MLflow Tracking | All experiments logged with parameters, metrics, and artifacts |
 
 ---
 
-## 📊 Model Performance
+##  Model Performance
 
 ### Classification (Placement Prediction)
 
@@ -87,7 +94,7 @@ Built on a **decoupled architecture** — FastAPI handles all ML logic as a REST
 
 ---
 
-## 🗂️ Dataset
+##  Dataset
 
 - **Source**: A.csv (features) + A_targets.csv (targets)
 - **Size**: 5,000 student records
@@ -117,7 +124,7 @@ high_attendance    = 1 if attendance >= 75% else 0
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### Prerequisites
 ```bash
@@ -148,7 +155,7 @@ python pipeline_regression.py
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -195,7 +202,7 @@ curl -X POST "http://localhost:8000/predict/classification" \
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -209,7 +216,7 @@ curl -X POST "http://localhost:8000/predict/classification" \
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Dsny-uts-modep/
@@ -227,7 +234,7 @@ Dsny-uts-modep/
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Dasnaiya Hsu**
 Binus University · Semester 4
